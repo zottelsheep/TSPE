@@ -1,4 +1,25 @@
+# TSPE Python Conversion
+
+This project aims to convert the TSPE Algorithm to Python in order to include it into the [Python Elephant Project](https://neuralensemble.org/elephant/)
+
+## Challenges
+
+### Data format
+
+Currently, the algorithm reads data as a time series in Spike Data Format (SDF). Since the aim of the project is to be included within the Elephant Project, the format has to change to [Neo](https://neuralensemble.org/neo/) Data-structures. 
+
+#### SDF
+
+The SDF-Format describes a spike-train with multiple vectors where each vector represents a spike-time-series from one neuron.
+
+### Code-Optimization
+
+The original TSPE-Algorithm was written in MATLAB and uses a self implemented Fast-Cross-Correlation Algorithm as well as some other steps to optimize the code for speed.
+
+For now the goal is to get it working in Python and then to think about code-optimization.
+
 # TSPE
+
 Total Spiking Probability Edges is a Cross-Correlation based method for eﬀective connectivity estimation of cortical spiking neurons.
 
 ## Background:

@@ -1,0 +1,6 @@
+
+### PyCharm IDE ###
+.idea
+
+### Pycache ###
+__pycache__/
